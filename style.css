@@ -90,6 +90,8 @@ span{
 }
 
 
+/*responsive*/
+
 @media (max-width : 600px) {
 
     html, body{
@@ -110,44 +112,45 @@ span{
 .wrapper h1{
     font-size: 7vw;
     font-weight: bold;
-    margin-bottom: 2.3vw;
+    margin-bottom: 5vw;
     color: rgba(0, 0, 0, 0.736);
 }
 
 .wrapper h3{
-    font-size: 4vw;
+    font-size: 4.7vw;
     color: rgba(0, 0, 0, 0.736);
     font-weight: bold;
-    margin-bottom: 2.5vw;
+    margin-bottom: 6vw;
 }
 
 .wrapper p{
-    font-size: 3.3vw;
+    font-size: 3.8vw;
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
-    margin-bottom: 2.5vw;
+    margin-bottom: 3vw;
 }
 
 #joke{
     display: flex;
     background-color: #756AB6;
-    min-height: 15vh;
-    width: 80%;
+    min-height: 20vh;
+    width: 90%;
     text-align: center;
     color: #FFE5E5;
     padding: 2vw 2vw;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 800;
 }
 
 button{
-    font-size: 5vw;
-    margin-top: 3vw;
+    font-size: 7vw;
+    margin-top: 7vw;
+    width: 70%;
     color:  #756AB6;
-    padding: 3vw 3vw;
+    padding: 4vw 4vw;
     border-radius: 1.8vw;
     background-color:#FFE5E5;
     border: 2px solid #756AB6;
@@ -165,10 +168,10 @@ span{
 }
 
 #deepu{
-    font-size: 3.3vw;
+    font-size: 4.3vw;
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
-    margin-top: 3vw;
+    margin-top: 5vw;
 }
 
 #deepu i{

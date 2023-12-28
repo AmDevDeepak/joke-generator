@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    /*background-color: #E0AED0;*/
+    background: linear-gradient(to right bottom,#756AB6, #FFE5E5, #AC87C5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 1.3vw;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+.wrapper h3{
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.736);
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+.wrapper p{
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+#joke{
+    display: flex;
+    background-color: #756AB6;
+    min-height: 10vh;
+    width: 50%;
+    text-align: center;
+    color: #FFE5E5;
+    padding: 2vw 2vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 3vw;
+    font-weight: 800;
+}
+
+button{
+    font-size: 2vw;
+    margin-top: 2vw;
+    color:  #756AB6;
+    padding: 1vw 1vw;
+    border-radius: 1.5vw;
+    background-color:#FFE5E5;
+    border: 2px solid #756AB6;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+span{
+    color: lightcoral;
+}
+
+#deepu{
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    margin-top: 2vw;
+}
+
+#deepu i{
+    color: red;
+}
